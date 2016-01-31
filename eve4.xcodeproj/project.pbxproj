@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3712DC721C5031A7005714C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3712DC711C5031A7005714C1 /* ViewController.swift */; };
+		3712DC741C504B35005714C1 /* WakeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3712DC731C504B35005714C1 /* WakeTableViewController.swift */; };
+		3712DC761C50D138005714C1 /* courseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3712DC751C50D138005714C1 /* courseTableViewController.swift */; };
+		373653F01C553E1300A0401E /* playerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373653EF1C553E1300A0401E /* playerViewController.swift */; };
+		373653F21C553FB800A0401E /* meditation1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 373653F11C553FB800A0401E /* meditation1.mp3 */; };
+		3794540E1C56C37600CAC8EB /* soundsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3794540D1C56C37600CAC8EB /* soundsTableViewController.swift */; };
+		379454101C57606300CAC8EB /* daysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3794540F1C57606300CAC8EB /* daysTableViewController.swift */; };
+		37A7036B1C5CFEBB00D54A9D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A7036A1C5CFEBB00D54A9D /* CFNetwork.framework */; };
+		37A7036D1C5CFEC600D54A9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A7036C1C5CFEC600D54A9D /* Foundation.framework */; };
+		37A7036F1C5CFECE00D54A9D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A7036E1C5CFECE00D54A9D /* Security.framework */; };
+		37A703711C5CFED400D54A9D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A703701C5CFED400D54A9D /* SystemConfiguration.framework */; };
 		37C42AED1C4EE39D00799B84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C42AEC1C4EE39D00799B84 /* AppDelegate.swift */; };
 		37C42AEF1C4EE39D00799B84 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C42AEE1C4EE39D00799B84 /* FirstViewController.swift */; };
 		37C42AF11C4EE39D00799B84 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C42AF01C4EE39D00799B84 /* SecondViewController.swift */; };
@@ -15,6 +26,7 @@
 		37C42AF91C4EE39D00799B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C42AF71C4EE39D00799B84 /* LaunchScreen.storyboard */; };
 		37C42B041C4EE39D00799B84 /* eve4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C42B031C4EE39D00799B84 /* eve4Tests.swift */; };
 		37C42B0F1C4EE39D00799B84 /* eve4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C42B0E1C4EE39D00799B84 /* eve4UITests.swift */; };
+		CE229894BA6EEB3FC8B704FF /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2C2543AD46E702F5E42C8A /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3712DC711C5031A7005714C1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3712DC731C504B35005714C1 /* WakeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WakeTableViewController.swift; sourceTree = "<group>"; };
+		3712DC751C50D138005714C1 /* courseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = courseTableViewController.swift; sourceTree = "<group>"; };
+		373653EF1C553E1300A0401E /* playerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playerViewController.swift; sourceTree = "<group>"; };
+		373653F11C553FB800A0401E /* meditation1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditation1.mp3; sourceTree = "<group>"; };
+		37820F6F1C5CECDA00CB3BC3 /* eve4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eve4-Bridging-Header.h"; sourceTree = "<group>"; };
+		3794540D1C56C37600CAC8EB /* soundsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = soundsTableViewController.swift; sourceTree = "<group>"; };
+		3794540F1C57606300CAC8EB /* daysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = daysTableViewController.swift; sourceTree = "<group>"; };
+		37A7036A1C5CFEBB00D54A9D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		37A7036C1C5CFEC600D54A9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37A7036E1C5CFECE00D54A9D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		37A703701C5CFED400D54A9D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		37C42AE91C4EE39C00799B84 /* eve4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eve4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C42AEC1C4EE39D00799B84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37C42AEE1C4EE39D00799B84 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +73,9 @@
 		37C42B0A1C4EE39D00799B84 /* eve4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eve4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C42B0E1C4EE39D00799B84 /* eve4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eve4UITests.swift; sourceTree = "<group>"; };
 		37C42B101C4EE39D00799B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844AEC5C6C260B68C02B922C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		861603EE6145FD3313E4E40A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EF2C2543AD46E702F5E42C8A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +83,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A703711C5CFED400D54A9D /* SystemConfiguration.framework in Frameworks */,
+				37A7036F1C5CFECE00D54A9D /* Security.framework in Frameworks */,
+				37A7036D1C5CFEC600D54A9D /* Foundation.framework in Frameworks */,
+				37A7036B1C5CFEBB00D54A9D /* CFNetwork.framework in Frameworks */,
+				CE229894BA6EEB3FC8B704FF /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +108,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		247D2D4F030D0B52AE7AB16B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A703701C5CFED400D54A9D /* SystemConfiguration.framework */,
+				37A7036E1C5CFECE00D54A9D /* Security.framework */,
+				37A7036C1C5CFEC600D54A9D /* Foundation.framework */,
+				37A7036A1C5CFEBB00D54A9D /* CFNetwork.framework */,
+				EF2C2543AD46E702F5E42C8A /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30FA2303F44DCB194DD132C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				844AEC5C6C260B68C02B922C /* Pods.debug.xcconfig */,
+				861603EE6145FD3313E4E40A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		37C42AE01C4EE39C00799B84 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +136,9 @@
 				37C42B021C4EE39D00799B84 /* eve4Tests */,
 				37C42B0D1C4EE39D00799B84 /* eve4UITests */,
 				37C42AEA1C4EE39C00799B84 /* Products */,
+				37820F6F1C5CECDA00CB3BC3 /* eve4-Bridging-Header.h */,
+				30FA2303F44DCB194DD132C9 /* Pods */,
+				247D2D4F030D0B52AE7AB16B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +156,19 @@
 			isa = PBXGroup;
 			children = (
 				37C42AEC1C4EE39D00799B84 /* AppDelegate.swift */,
+				3712DC731C504B35005714C1 /* WakeTableViewController.swift */,
+				3794540D1C56C37600CAC8EB /* soundsTableViewController.swift */,
+				3794540F1C57606300CAC8EB /* daysTableViewController.swift */,
 				37C42AEE1C4EE39D00799B84 /* FirstViewController.swift */,
 				37C42AF01C4EE39D00799B84 /* SecondViewController.swift */,
+				3712DC711C5031A7005714C1 /* ViewController.swift */,
+				3712DC751C50D138005714C1 /* courseTableViewController.swift */,
+				373653EF1C553E1300A0401E /* playerViewController.swift */,
 				37C42AF21C4EE39D00799B84 /* Main.storyboard */,
 				37C42AF51C4EE39D00799B84 /* Assets.xcassets */,
 				37C42AF71C4EE39D00799B84 /* LaunchScreen.storyboard */,
 				37C42AFA1C4EE39D00799B84 /* Info.plist */,
+				373653F11C553FB800A0401E /* meditation1.mp3 */,
 			);
 			path = eve4;
 			sourceTree = "<group>";
@@ -135,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37C42B131C4EE39D00799B84 /* Build configuration list for PBXNativeTarget "eve4" */;
 			buildPhases = (
+				907D88CAB893EB8BA7639147 /* Check Pods Manifest.lock */,
 				37C42AE51C4EE39C00799B84 /* Sources */,
 				37C42AE61C4EE39C00799B84 /* Frameworks */,
 				37C42AE71C4EE39C00799B84 /* Resources */,
+				DD263B89F167725AF037E4AA /* Embed Pods Frameworks */,
+				70F405C6FC7FABBEC3F529BD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373653F21C553FB800A0401E /* meditation1.mp3 in Resources */,
 				37C42AF91C4EE39D00799B84 /* LaunchScreen.storyboard in Resources */,
 				37C42AF61C4EE39D00799B84 /* Assets.xcassets in Resources */,
 				37C42AF41C4EE39D00799B84 /* Main.storyboard in Resources */,
@@ -254,13 +321,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		70F405C6FC7FABBEC3F529BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		907D88CAB893EB8BA7639147 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD263B89F167725AF037E4AA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37C42AE51C4EE39C00799B84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				37C42AF11C4EE39D00799B84 /* SecondViewController.swift in Sources */,
+				379454101C57606300CAC8EB /* daysTableViewController.swift in Sources */,
+				3712DC741C504B35005714C1 /* WakeTableViewController.swift in Sources */,
+				373653F01C553E1300A0401E /* playerViewController.swift in Sources */,
 				37C42AED1C4EE39D00799B84 /* AppDelegate.swift in Sources */,
+				3712DC721C5031A7005714C1 /* ViewController.swift in Sources */,
+				3794540E1C56C37600CAC8EB /* soundsTableViewController.swift in Sources */,
+				3712DC761C50D138005714C1 /* courseTableViewController.swift in Sources */,
 				37C42AEF1C4EE39D00799B84 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,23 +522,38 @@
 		};
 		37C42B141C4EE39D00799B84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844AEC5C6C260B68C02B922C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = eve4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielpape.eve4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "eve4-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		37C42B151C4EE39D00799B84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 861603EE6145FD3313E4E40A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = eve4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielpape.eve4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "eve4-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -488,6 +624,7 @@
 				37C42B151C4EE39D00799B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37C42B161C4EE39D00799B84 /* Build configuration list for PBXNativeTarget "eve4Tests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +633,7 @@
 				37C42B181C4EE39D00799B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37C42B191C4EE39D00799B84 /* Build configuration list for PBXNativeTarget "eve4UITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +642,7 @@
 				37C42B1B1C4EE39D00799B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
