@@ -10,9 +10,11 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet var toolbar: UIToolbar!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.tabBarController?.tabBar.hidden = true
+        toolbar.barTintColor = UIColor(red: 27/255, green: 27/255, blue: 27/255, alpha: 1)
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +22,16 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func tapWakeButton(sender: AnyObject) {
+        self.tabBarController?.selectedIndex = 0
+    }
 
+    @IBAction func tapSleepButton(sender: AnyObject) {
+         self.tabBarController?.selectedIndex = 1
+    }
+    
+    @IBAction func tapSettingsButton(sender: AnyObject) {
+        self.tabBarController?.selectedIndex = 2
+    }
 }
 

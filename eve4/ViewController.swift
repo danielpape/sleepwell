@@ -10,10 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var toolbar: UIToolbar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.tabBarController?.tabBar.hidden = true
+        toolbar.barTintColor = UIColor(red: 27/255, green: 27/255, blue: 27/255, alpha: 1)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +23,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func tapWakeButton(sender: AnyObject) {
+        self.tabBarController?.selectedIndex = 0
     }
-    */
+    
+    @IBAction func tapSleepButton(sender: AnyObject) {
+        self.tabBarController?.selectedIndex = 1
+    }
+    
+    @IBAction func tapSettingsButton(sender: AnyObject) {
+        self.tabBarController?.selectedIndex = 2
+    }
 
 }

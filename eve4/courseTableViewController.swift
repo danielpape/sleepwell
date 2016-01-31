@@ -7,11 +7,22 @@
 //
 
 import UIKit
+import Alamofire
+import AVFoundation
 
 class courseTableViewController: UITableViewController {
 
+    @IBOutlet weak var actionButton: UIButton!
+    
+    var localPath: NSURL?
+    var audioPlayer:AVAudioPlayer = AVAudioPlayer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if (localPath == nil){
+            actionButton.setTitle("Download", forState: .Normal)
+        }
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -29,14 +40,43 @@ class courseTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 1
     }
-
+    
+    func downloadURL(url:String){
+        Alamofire.download(.GET,
+            url,
+            destination: { (temporaryURL, response) in
+                let directoryURL = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0]
+                let pathComponent = response.suggestedFilename
+                
+                self.localPath = directoryURL.URLByAppendingPathComponent(pathComponent!)
+                return self.localPath!
+        })
+            .response { (request, response, _, error) in
+                print(response)
+                print("Downloaded file to \(self.localPath!)")
+                self.actionButton.setTitle("Play", forState: .Normal)
+        }
+    }
+    
+    @IBAction func tapActionButton(sender: AnyObject) {
+        if (localPath == nil){
+                    downloadURL("https://www.danielpape.co.uk/sleepwell/01_06.mp3")
+        }else{
+            do{
+                audioPlayer = try AVAudioPlayer(contentsOfURL: localPath!)
+            }catch{
+                print(error)
+            }
+            audioPlayer.play()
+        }
+    }
     /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
